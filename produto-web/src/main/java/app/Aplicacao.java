@@ -14,7 +14,7 @@ public class Aplicacao {
 
         staticFiles.location("/public");
 
-        // Página inicial
+    
         get("/", (req, res) -> {
             res.redirect("/index.html");
             return null;
